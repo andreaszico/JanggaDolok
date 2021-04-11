@@ -1,0 +1,39 @@
+.content-login .title-register {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.316), rgba(0, 0, 0, 0.707)), url('https://i.postimg.cc/JzLsCy1R/2.jpg');
+    width: 50%;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.content-login .box__form__register {
+    width: 50%;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box__form__register .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link-login{
+    margin-top: 30px;
+}   
+.errors__message{
+    margin-top: 3px;
+    color: #bf1650;
+    font-size: 12px;
+}
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl{
+    background: rgb(255, 255, 255);
+}

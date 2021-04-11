@@ -1,0 +1,73 @@
+body {
+    /* min-height: 500vh; */
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background: #013E1F;
+    margin-top: 100px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.footer .MuiPaper-root {
+    display: flex;
+    background: none;
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .footer .MuiGrid-root.MuiGrid-item{
+        width: 500px !important;
+    }
+    .footer .MuiPaper-root{
+        width: 100%;
+    }
+}
+
+.about__footer {
+    padding: 50px;
+    text-align: left;
+}
+
+.address__footer {
+    padding: 50px;
+    text-align: left;
+}
+
+.about__footer h3 {
+    font-weight: 700;
+    color: rgb(235, 235, 235);
+}
+
+.about__footer p {
+    font-weight: 300;
+    color: rgb(235, 235, 235);
+}
+
+.address__footer h3 {
+    font-weight: 700;
+    color: rgb(235, 235, 235);
+}
+
+.address__footer p {
+    font-weight: 300;
+    color: rgb(235, 235, 235);
+}
+.image__footer{
+    display: flex;
+    justify-content: center;
+}
+
+.image__footer img{
+    width: 90px;
+}
+.copyright{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}

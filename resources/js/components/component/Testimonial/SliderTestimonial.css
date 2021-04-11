@@ -1,0 +1,31 @@
+.slide-content-testimonial img{
+    width: 40px;
+    height: 40px;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.slide-content-testimonial .user-testimonial{
+    display: flex;
+}
+
+.user-testimonial>span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+@media (max-width: 640px) {
+    .slider-testimonials .slide.animateIn.previous, .slider-testimonials .slide.animateIn.next {
+        left: 70px;
+        visibility: visible;
+    }
+
+    .slide-content-testimonial{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

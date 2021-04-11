@@ -1,0 +1,38 @@
+.heading-page {
+    font-weight: 700;
+}
+
+.grid-button-add {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon__add__article {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30px;
+    bottom: 30px;
+    color: white
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root {
+    outline: none;
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root.Mui-selected:hover {
+    background: rgb(20, 146, 62);
+}
+
+.MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+    background: rgb(31, 230, 98);
+}
+
+.ql-editor {
+    min-height: 100px !important;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}

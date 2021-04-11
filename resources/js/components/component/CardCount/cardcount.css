@@ -1,0 +1,4 @@
+.text-dashboard{
+    display: flex;
+    flex-direction: column;
+}   

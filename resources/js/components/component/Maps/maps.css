@@ -1,0 +1,12 @@
+.maps{
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.maps h1{
+    font-weight: 700;
+}
+
+.maps iframe{
+    height: 100%;
+}

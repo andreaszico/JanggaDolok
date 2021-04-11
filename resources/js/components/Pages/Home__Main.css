@@ -1,0 +1,147 @@
+.home__main {
+    font-family: 'Piazzolla', serif;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+@media (min-width:576px) {
+
+    .home__main {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+
+    .home__main {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .home__main {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .home__main {
+        max-width: 1140px
+    }
+}
+
+.content__top {
+    max-width: 80%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content__top p {
+    font-weight: 400;
+}
+
+.content__about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__image {
+    width: 50%;
+    height: 100%;
+}
+
+.about__image img {
+    width: 410px;
+    height: 550px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+
+.about__article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.about__article h3 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.about__article>* {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .content__about {
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about__image {
+        width: 50%;
+        min-width: 768px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__article>p:nth-child(2) {
+        font-size: 14px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .content__about {
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about__image {
+        min-width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__article>p:nth-child(2) {
+        font-size: 14px;
+        display: none;
+    }
+}
+
+.potensi__box{
+    width: 100%;
+}

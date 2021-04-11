@@ -1,0 +1,32 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.logo-drawer{
+    display: flex;
+    justify-content: center;
+}
+.header-sidebar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    transition: all 0.9s;
+    opacity: 0.8;
+}
+.header-sidebar.clicked {
+    width: 40px;
+}
+
+.list-item-text .MuiTypography-body1 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 15px;
+}
+.app-bar-top{
+    width: 100%;
+    margin: 0 !important;
+    /* padding: 0; */
+    padding-left: 0;
+    box-shadow: none !important;
+}
+

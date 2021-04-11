@@ -1,0 +1,130 @@
+.heading-card {
+    box-shadow: none !important;
+    background: transparent !important;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.MuiPaper-root.paper-testimonial {
+    box-shadow: none;
+    background: transparent;
+}
+
+.content-paper {
+    text-align: left;
+}
+
+.content-paper .paper-title {
+    font-size: 20px;
+    position: relative;
+}
+
+.content-paper .paper-heading-1 {
+    font-size: 40px;
+}
+
+.content-paper .paper-heading-2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.slider-testimonials {
+    height: auto;
+}
+
+.slider-testimonials .slider .track .slide {
+    height: 30vh;
+}
+
+.slider-testimonials .slider .track .slide.slide::before {
+    background: none !important;
+}
+
+.image-testimonial {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-testimonial img:nth-child(1) {
+    position: absolute;
+    width: 250px;
+    top: -100px;
+}
+
+.image-testimonial img:nth-child(2) {
+    position: absolute;
+    width: 350px;
+    top: 100px;
+}
+
+.image-testimonial img:nth-child(3) {
+    position: absolute;
+    width: 250px;
+    top: 375px;
+}
+
+
+@media (max-width: 640px) {
+    .slider-testimonials .slider .track .slide.current {
+        left: 70px;
+        transition: all 1s;
+    }
+
+    .slider-testimonials .slider .track {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-testimonial {
+        margin-top: 100px !important;
+    }
+
+    .content-paper {
+        text-align: center;
+    }
+
+    .slider-testimonials {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .grid-image-testimonial {
+        display: none;
+    }
+}
+
+@media (max-width: 940px) {
+    .slider-testimonials .slider .track {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-testimonial {
+        margin-top: 100px !important;
+    }
+
+    .grid-image-testimonial {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .slider-content .inner h1 {
+        font-size: 32px;
+    }
+}
+.slider-testimonials .previousButton, .slider-testimonials  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 52px;
+    height: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.login {
+    min-height: 100vh;
+}
+
+.content-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content-login .title-login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.316), rgba(0, 0, 0, 0.707)), url('https://i.postimg.cc/JzLsCy1R/2.jpg');
+    width: 65%;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.head-title-login,
+.content-title-login {
+    margin-bottom: 40px;
+}
+
+.head-title-login {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.title>.content-title-login {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.content-login .box__form {
+    width: 35%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box__form .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.box__form .form-group-login {
+    display: flex;
+    flex-direction: column;
+    color: #0A927A;
+    font-weight: 500;
+}
+
+.form .form-group-login:nth-child(2) {
+    margin-top: 30px;
+}
+
+.form .form-group-login:nth-child(3) {
+    margin-top: 20px;
+}
+
+.form-group-login .login-input-form {
+    width: 275px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid #039A4E;
+}
+
+.form .button-login {
+    margin-top: 50px;
+}
+
+.form h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #039A4E;
+}
+
+
+.error-message{
+    background: #f8d7da;
+    color: #842029;
+    padding: 1rem 1rem;
+    border-radius: .25rem;
+    font-size: 12px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+}
+
+.link-register{
+    margin-bottom: 30px;
+}
+
+.button-login-provider{
+    background: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.button-login-provider:hover{
+    text-decoration: none;
+}
+.button-login-provider img{
+    width: 25px;
+    object-fit: contain;
+}
+.auth-provider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

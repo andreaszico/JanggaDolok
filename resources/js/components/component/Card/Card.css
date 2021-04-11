@@ -1,0 +1,67 @@
+.MuiPaper-root{
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+}
+.image-card{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.image-card .image-default{
+    /* width: 450px; */
+    height: 350px;
+    transform: translateY(-20%);
+}
+
+.image-card .image-scale{
+    height: 350px;
+    transform: scale(1);
+}
+
+
+.MuiPaper-root .title-text-card{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.MuiPaper-root .content-text-card{
+    font-size: 14px;
+}
+
+.MuiPaper-root .content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: transparent;
+}
+
+.content-card .button-card{
+    width: 150px;
+    background: #039A4E;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0px 3px 6px #039a4259;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.content-card .button-card:hover{
+    background: #023c21;
+    border-radius: 100px;
+    color: white;
+    box-shadow: 0px 3px 6px #039a4259;
+}
+
+.heading-card{
+    box-shadow: none !important;
+    background: transparent !important;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+}
